@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    color: yellow;
+}
+
+.fondo {
+    background-image: url(../assets/backgroundpacman.jpg);
+    background-size: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    
+}
+
+.pacmanmotion {
+    position: relative;
+    animation: pacman 15s infinite;
+
+}
+
+@keyframes pacman {
+    0%          {top: 5%; left: 0%; rotate: 0deg;}
+    5%          {top: 5%; left: 22%; rotate: 0deg;}
+    8%          {rotate: 90deg;}
+    10%         {top: 15%; left: 22%; rotate: 0deg;}
+    20%         {top: 15%; left: 82%; rotate: 0deg;}
+    22%, 25%    {rotate: 90deg;}
+    26%         {top: 57%; left: 82%; rotate: 90deg;}
+    27%, 30%    {rotate: 0deg;}
+    35%         {top: 57%; left: 75%; rotate: 360deg;}
+    39%         {top: 65%; left: 75%; rotate: 360deg;}
+    45%         {top: 65%; left: 52%; rotate: 180deg;}
+    48%         {top: 55%; left: 52%; rotate: 360deg;}
+    53%         {top: 55%; left: 58%; rotate: 90deg;}
+    56%         {top: 33%; left: 58%; rotate: 0deg;}
+    60%         {top: 33%; left: 50%; rotate: 0deg;}
+    63%         {top: 40%; left: 50%; rotate: 0deg;}
+   
+    
+        
+        
+  }
+
+.centrar {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+  @media screen and (min-width: 1201px) and (max-width: 1400px) { 
+    @keyframes pacman {
+      0%          {top: 4%; left: 0%; rotate: 0deg;}
+      5%          {top: 4%; left: 22%; rotate: 0deg;}
+      8%          {rotate: 90deg;}
+      10%         {top: 13%; left: 22%; rotate: 0deg;}
+      20%         {top: 13%; left: 82%; rotate: 0deg;}
+      22%, 25%    {rotate: 90deg;}
+      26%         {top: 48%; left: 82%; rotate: 90deg;}
+      27%, 30%    {rotate: 0deg;}
+      35%         {top: 48%; left: 75%; rotate: 360deg;}
+      39%         {top: 54%; left: 75%; rotate: 360deg;}
+      45%         {top: 54%; left: 52%; rotate: 180deg;}
+      48%         {top: 47%; left: 52%; rotate: 360deg;}
+      53%         {top: 47%; left: 58%; rotate: 90deg;}
+      56%         {top: 27%; left: 58%; rotate: 0deg;}
+      60%         {top: 27%; left: 50%; rotate: 0deg;}
+      63%         {top: 33%; left: 50%; rotate: 0deg;}
+     
+          
+    }
+  }
+
+  
+
+
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    @keyframes pacman {
+      0%          {top: 3%; left: 0%; rotate: 0deg;}
+      5%          {top: 3%; left: 22%; rotate: 0deg;}
+      8%          {rotate: 90deg;}
+      10%         {top: 12%; left: 22%; rotate: 0deg;}
+      20%         {top: 12%; left: 82%; rotate: 0deg;}
+      22%, 25%    {rotate: 90deg;}
+      26%         {top: 48%; left: 82%; rotate: 90deg;}
+      27%, 30%    {rotate: 0deg;}
+      35%         {top: 48%; left: 75%; rotate: 360deg;}
+      39%         {top: 54%; left: 75%; rotate: 360deg;}
+      45%         {top: 54%; left: 52%; rotate: 180deg;}
+      48%         {top: 47%; left: 52%; rotate: 360deg;}
+      53%         {top: 47%; left: 58%; rotate: 90deg;}
+      56%         {top: 27%; left: 58%; rotate: 0deg;}
+      60%         {top: 27%; left: 50%; rotate: 0deg;}
+      63%         {top: 33%; left: 50%; rotate: 0deg;}
+     
+          
+    }
+  } 
+
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    @keyframes pacman {
+      0%          {top: 3%; left: 0%; rotate: 0deg;}
+      5%          {top: 3%; left: 22%; rotate: 0deg;}
+      8%          {rotate: 90deg;}
+      10%         {top: 12%; left: 22%; rotate: 0deg;}
+      20%         {top: 12%; left: 82%; rotate: 0deg;}
+      22%, 25%    {rotate: 90deg;}
+      26%         {top: 46%; left: 82%; rotate: 90deg;}
+      27%, 30%    {rotate: 0deg;}
+      35%         {top: 46%; left: 75%; rotate: 360deg;}
+      39%         {top: 53%; left: 75%; rotate: 360deg;}
+      45%         {top: 53%; left: 52%; rotate: 180deg;}
+      48%         {top: 47%; left: 52%; rotate: 360deg;}
+      53%         {top: 47%; left: 58%; rotate: 90deg;}
+      56%         {top: 25%; left: 58%; rotate: 0deg;}
+      60%         {top: 25%; left: 50%; rotate: 0deg;}
+      63%         {top: 33%; left: 50%; rotate: 0deg;}
+     
+          
+    }
+  } 
+   
+
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    @keyframes pacman {
+      0%          {top: 2%; left: 0%; rotate: 0deg;}
+      5%          {top: 2%; left: 22%; rotate: 0deg;}
+      8%          {rotate: 90deg;}
+      10%         {top: 11%; left: 22%; rotate: 0deg;}
+      20%         {top: 11%; left: 82%; rotate: 0deg;}
+      22%, 25%    {rotate: 90deg;}
+      26%         {top: 46%; left: 82%; rotate: 90deg;}
+      27%, 30%    {rotate: 0deg;}
+      35%         {top: 46%; left: 76%; rotate: 360deg;}
+      39%         {top: 52%; left: 76%; rotate: 360deg;}
+      45%         {top: 52%; left: 52%; rotate: 180deg;}
+      48%         {top: 45%; left: 52%; rotate: 360deg;}
+      53%         {top: 45%; left: 58%; rotate: 90deg;}
+      56%         {top: 25%; left: 58%; rotate: 0deg;}
+      60%         {top: 25%; left: 50%; rotate: 0deg;}
+      63%         {top: 31%; left: 50%; rotate: 0deg;}
+     
+          
+    }
+  }
+
+  
+  
+
+  @media screen and (min-width: 576px) and (max-width: 768px) { 
+    body {
+        background-color: rgb(30, 97, 204);
+      }
+
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 992px) { 
+    body {
+        background-color: rgb(236, 34, 229);
+      }
+
+  }
+
+  @media screen and (min-width: 993px) and (max-width: 1200px) { 
+    body {
+        background-color: rgb(6, 177, 83);
+      }
+
+  }
+  
+  @media screen and (min-width: 1201px) and (max-width: 1400px) { 
+    body {
+        background-color: rgb(90, 16, 181);
+      }
+
+  }
+   
+   
+   
+
+  
